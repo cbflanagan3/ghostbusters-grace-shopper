@@ -1,0 +1,50 @@
+{
+  "name": "ghostbusters-grace-shopper",
+  "version": "1.0.0",
+  "description": "Repo for Grace Shopper Project for Jason, Jake, and Caroline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "start-dev": "nodemon server/index.js",
+    "build": "webpack",
+    "build-dev": "npm run build -- --watch --mode=development",
+    "eslint": "./node_modules/.bin/eslint ./server --fix & ./node_modules/.bin/eslint ./client --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbflanagan3/ghostbusters-grace-shopper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbflanagan3/ghostbusters-grace-shopper/issues"
+  },
+  "homepage": "https://github.com/cbflanagan3/ghostbusters-grace-shopper#readme",
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-react": "^7.10.4",
+    "axios": "^0.19.2",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.1.0",
+    "express": "^4.17.1",
+    "pg": "^8.3.0",
+    "react": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "sequelize": "^6.3.3",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
